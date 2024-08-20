@@ -21,7 +21,7 @@ class argHandler(dict):
                     'path to folder containing the patient folders which containing the images')
         self.define('visual_model_name', 'fine_tuned_chexnet',
                     'path to folder containing the patient folders which containing the images')
-        self.define('finetune_visual_model', False,
+        self.define('finetune_visual_model', True,
                     'option if you want to finetune the visual model')
         self.define('visual_model_pop_layers', 2,
                     'number of conv layers to pop to get visual features')
